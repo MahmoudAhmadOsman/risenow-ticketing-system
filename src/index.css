@@ -14,3 +14,10 @@ code {
 img {
 	pointer-events: none;
 }
+/* Nagivation style */
+.navigation {
+	position: relative;
+}
+.navigation img#logo {
+	width: 250px;
+}

@@ -116,10 +116,10 @@ const LangdingPage = () => {
 								<div className="col-md-6 icon-box ">
 									<i className="ri-magic-line p-2 bg-dark text-white" />
 									<div>
-										<h4 className="mt-3">Corporis voluptates sit</h4>
+										<h4 className="mt-3">Document Intelligence</h4>
 										<p>
-											Expedita veritatis consequuntur nihil tempore laudantium
-											vitae denat pacta
+											Automate data extraction from documents, integrating
+											seamlessly into workflows for enhanced efficiency.
 										</p>
 									</div>
 								</div>

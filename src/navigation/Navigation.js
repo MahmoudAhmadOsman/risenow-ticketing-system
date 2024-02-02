@@ -4,10 +4,15 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
 	return (
 		<section className="navigation">
-			<nav className="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
+			<nav className="navbar navbar-expand-lg navbar-light bg-light text-uppercase">
 				<div className="container-fluid">
 					<Link className="navbar-brand" to="/">
-						RiseNow
+						<img
+							className="img-fluid"
+							src="/images/risenow-logo.png"
+							alt="logo"
+							id="logo"
+						/>
 					</Link>
 					<button
 						className="navbar-toggler"
