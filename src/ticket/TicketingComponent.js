@@ -47,6 +47,12 @@ const TicketingComponent = () => {
 									id="caller"
 									aria-describedby="basic-addon2"
 								/>
+								<div className="bg-secondary p-2 text-white">
+									<i className="ri-search-line"></i>
+								</div>
+								{/* <button className="btn btn-secondary btn-sm">
+									<i className="ri-search-line"></i>
+								</button> */}
 							</div>
 
 							{/* Category */}
@@ -171,10 +177,10 @@ const TicketingComponent = () => {
 									aria-describedby="basic-addon8"
 									id="state"
 								>
-									<option value="">Previous</option>
-									<option value="">Solved</option>
-									<option value="">Reopened</option>
-									<option value="">Unsolved</option>
+									<option value="">Previous Incident</option>
+									<option value="">Solved Incident</option>
+									<option value="">Reopened Incident</option>
+									<option value="">Unsolved Incident</option>
 									<option value="" selected>
 										--New--
 									</option>
