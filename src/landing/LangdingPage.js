@@ -66,7 +66,7 @@ const LangdingPage = () => {
 			{/* Start of feature apps */}
 			<section className="feature-apps mt-4">
 				<div className="container">
-					<small className="fst-italic text-muted">Do More with IT</small>
+					<small className="fst-italic text-muted">Do more with IT</small>
 					<h1 className="mb-4">Do more with IT Service Management</h1>
 
 					<div className="row mt-4">
