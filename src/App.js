@@ -11,7 +11,7 @@ function App() {
 				<Navigation />
 				<Routes>
 					{/* <Route path="/ticketing" element={<TicketingComponent />} /> */}
-					<Route path="/ticketing" element={<TicketingComponent />} />
+					<Route path="/incidents/ticketing" element={<TicketingComponent />} />
 					<Route path="/" element={<HomeComponent />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
