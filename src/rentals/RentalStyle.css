@@ -1,0 +1,13 @@
+.rentals {
+	position: relative;
+}
+.rentals .card img {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	object-fit: cover;
+	max-width: 100%;
+	height: 160px;
+}
+input.location[type="text"]::placeholder {
+	font-size: 11px;
+}
