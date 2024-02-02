@@ -32,6 +32,19 @@ const Navigation = () => {
 									About
 								</Link>
 							</li>
+
+							<li className="nav-item">
+								<Link className="nav-link" to="/ticketing">
+									Ticket
+								</Link>
+							</li>
+
+							<li className="nav-item">
+								<Link className="nav-link" to="/incidents">
+									Incidents
+								</Link>
+							</li>
+
 							<>
 								<li className="nav-item dropdown">
 									<Link
@@ -48,11 +61,6 @@ const Navigation = () => {
 										className="dropdown-menu"
 										aria-labelledby="navbarDropdown"
 									>
-										<li>
-											<Link className="dropdown-item" to="#">
-												Ticket
-											</Link>
-										</li>
 										<li>
 											<Link className="dropdown-item" to="#">
 												Knowledge Base
