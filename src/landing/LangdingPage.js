@@ -81,7 +81,7 @@ const LangdingPage = () => {
 							<div className="row align-self-center gy-4">
 								<div className="col-md-6 ">
 									<i
-										className="fa fa-line-chart d-inline p-2 bg-dark text-white"
+										className="fa fa-line-chart d-inline p-2 bg-dark text-white img-thumbnail"
 										aria-hidden="true"
 									></i>
 
@@ -94,7 +94,7 @@ const LangdingPage = () => {
 									</div>
 								</div>
 								<div className="col-md-6 icon-box">
-									<i className="ri-stack-line p-2 bg-dark text-white" />
+									<i className="ri-stack-line p-2 bg-dark text-white img-thumbnail" />
 									<div>
 										<h4 className="mt-3">Configuration Management Database</h4>
 										<p>
@@ -104,7 +104,7 @@ const LangdingPage = () => {
 									</div>
 								</div>
 								<div className="col-md-6 icon-box ">
-									<i className="ri-brush-4-line p-2 bg-dark text-white" />
+									<i className="ri-brush-4-line p-2 bg-dark text-white img-thumbnail" />
 									<div>
 										<h4 className="mt-3">Knowledge Management</h4>
 										<p>
@@ -114,7 +114,7 @@ const LangdingPage = () => {
 									</div>
 								</div>
 								<div className="col-md-6 icon-box ">
-									<i className="ri-magic-line p-2 bg-dark text-white" />
+									<i className="ri-magic-line p-2 bg-dark text-white img-thumbnail" />
 									<div>
 										<h4 className="mt-3">Document Intelligence</h4>
 										<p>
@@ -124,7 +124,7 @@ const LangdingPage = () => {
 									</div>
 								</div>
 								<div className="col-md-6 icon-box ">
-									<i className="ri-command-line p-2 bg-dark text-white" />
+									<i className="ri-command-line p-2 bg-dark text-white img-thumbnail" />
 									<div>
 										<h4 className="mt-3">Incident Management</h4>
 										<p>
@@ -134,7 +134,7 @@ const LangdingPage = () => {
 									</div>
 								</div>
 								<div className="col-md-6 icon-box ">
-									<i className="ri-radar-line p-2 bg-dark text-white" />
+									<i className="ri-radar-line p-2 bg-dark text-white img-thumbnail" />
 									<div>
 										<h4 className="mt-3">Service Operations Workspace</h4>
 										<p>
