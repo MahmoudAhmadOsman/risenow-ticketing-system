@@ -124,3 +124,19 @@
 		transform: translateY(-10px);
 	}
 }
+/* Try us style */
+.try-us {
+	position: relative;
+	margin-bottom: 40px;
+}
+.try-us .icons {
+	width: 100px;
+	margin: auto 25%;
+}
+.try-us .card {
+	margin-top: -40px;
+}
+.try-us .btn {
+	border-radius: 50px;
+	width: 30%;
+}

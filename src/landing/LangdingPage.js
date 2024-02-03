@@ -148,7 +148,95 @@ const LangdingPage = () => {
 					</div>
 				</div>
 			</section>
+			<hr />
 			{/* End of feature apps */}
+
+			{/* Start with us */}
+			<section className="start-with-us">
+				<div className="container-fluid mt-4">
+					<div className="row">
+						<div className="col-md-6 ">
+							<img
+								className="img-fluid  p-3"
+								src="images/start-with-us.jpg"
+								alt="start with us"
+							/>
+						</div>
+						<div className="col-md-6 p-4">
+							<h1>See how we help the world work better</h1>
+							<p className="lead">
+								See how we help the world work better by fostering innovation,
+								empowering communities, and driving positive change. Through our
+								commitment to excellence and collaboration, we tackle complex
+								challenges head-on, pioneering solutions that enhance
+								efficiency, sustainability, and inclusivity. From cutting-edge
+								technology to sustainable practices, we're dedicated to shaping
+								a brighter future for generations to come. Join us in our
+								mission to create a world where every individual and
+								organization can thrive, making progress together towards a more
+								equitable and prosperous global community.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			{/* End with with us */}
+
+			{/* Start of try us out */}
+			<section className="try-us mt-3">
+				<div
+					className="container-fluid bg-success try-us-container"
+					style={{ height: "100px" }}
+				>
+					<div className="row"></div>
+				</div>
+				<div className="container">
+					<div className="row">
+						<div className="col-md-6">
+							<div className="card">
+								<div className="card-body text-center">
+									<img
+										src="images/icons/play.png"
+										className="card-img-top icons"
+										alt="icon"
+									/>
+
+									<h1>Try us out</h1>
+									<p>
+										See how the Now Platform uses AI and automation to make work
+										better for everyone
+									</p>
+									<button className="btn btn-outline-primary">
+										Watch Demo
+									</button>
+								</div>
+							</div>
+						</div>
+						<div className="col-md-6">
+							<div className="card">
+								<div className="card-body text-center">
+									<img
+										src="images/icons/video-call.png"
+										className="card-img-top icons"
+										alt="icon"
+									/>
+
+									<h1>Connect with an expert</h1>
+									<p>
+										Whether you need to streamline a process or develop apps
+										fast, we're here to help.
+									</p>
+									<button className="btn btn-outline-primary">
+										Contact Us
+									</button>
+								</div>
+							</div>
+						</div>{" "}
+					</div>
+				</div>
+			</section>
+			{/* End of try us out */}
 		</>
 	);
 };

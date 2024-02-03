@@ -8,7 +8,7 @@ const TicketingComponent = () => {
 	};
 
 	return (
-		<section className="incident">
+		<section className="incident mt-3">
 			<div className="container bg-light p-4">
 				<h1 className="text-success text-uppercase">Incident Report </h1> <hr />
 				<form onSubmit={handleIncidentForm}>
