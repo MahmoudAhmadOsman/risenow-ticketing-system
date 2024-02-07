@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
 	return (
 		<section className="navigation">
-			<nav className="navbar navbar-expand-lg navbar-light bg-light text-uppercase">
+			<nav className="navbar navbar-expand-lg navbar-light bg-light text-uppercase fw-bold">
 				<div className="container-fluid">
 					<Link className="navbar-brand" to="/">
 						<img
