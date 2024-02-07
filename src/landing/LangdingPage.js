@@ -69,7 +69,7 @@ const LangdingPage = () => {
 					<small className="fst-italic text-muted">Do more with IT</small>
 					<h1 className="mb-4">Do more with IT Service Management</h1>
 
-					<div className="row mt-4">
+					<div className="row text-lg-left text-center mt-4">
 						<div className="col-xl-4 text-center">
 							<img
 								src="images/features-3.png"
