@@ -212,7 +212,7 @@ const TicketingComponent = () => {
 											<option value="Unsolved Incident">
 												Unsolved Incident
 											</option>{" "}
-											<option value="--None--">--None--</option>
+											<option value="--None--">None</option>
 										</select>
 									</div>
 
@@ -277,7 +277,7 @@ const TicketingComponent = () => {
 											onChange={handleChange}
 										>
 											<option disabled>--Select one --</option>
-											<option value="--None--">--None--</option>
+											<option value="None">None</option>
 											<option value="Incident">Incident</option>
 											<option value="Inquiry/Help">Inquiry/Help</option>{" "}
 										</select>
@@ -302,14 +302,12 @@ const TicketingComponent = () => {
 										>
 											<option disabled>--Select one --</option>
 
-											<option value="--New--">--New--</option>
+											<option value="--New--">New</option>
 											<option value="Previous Incident">
 												Previous Incident
 											</option>
 											<option value="Solved Incident">Solved Incident</option>
-											<option value="Reopened Incident">
-												Reopened Incident
-											</option>
+											<option value="Reopened Incident">Reopen Incident</option>
 											<option value="Unsolved Incident">
 												Unsolved Incident
 											</option>
