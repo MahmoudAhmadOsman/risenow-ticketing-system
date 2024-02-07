@@ -42,7 +42,7 @@ const IncidentListComponent = () => {
 							</div>
 						)}
 						<div className="row">
-							<div className="col-md-1 bg-warning vh-100"></div>
+							<div className="col-md-1 bg-warning vh-100 d-none d-lg-block"></div>
 							<div className="col-md-11">
 								<h1 className="text-uppercase ">Incident Reporting</h1> <hr />
 								{/* Table */}
