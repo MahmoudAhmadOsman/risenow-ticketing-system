@@ -1,0 +1,8 @@
+.incident {
+	position: relative;
+}
+.incident .container {
+	background-color: #444;
+	color: #fff;
+	margin-bottom: 60px;
+}

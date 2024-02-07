@@ -3,6 +3,7 @@ import Swal from "sweetalert2";
 import IncidentService from "../service/IncidentService";
 import { useNavigate } from "react-router-dom";
 import Loading from "../utils/Loading";
+import "./IncidentStyle.css";
 
 const TicketingComponent = () => {
 	const [loading, setLoading] = useState(false);
@@ -109,14 +110,13 @@ const TicketingComponent = () => {
 	};
 
 	return (
-		<section className="incident mt-3">
-			<div className="container bg-light p-4">
+		<section className="incident">
+			<div className="container py-2">
 				{loading ? (
 					<div> {<Loading />} </div>
 				) : (
 					<>
-						<h1 className="text-success text-uppercase">Incident Report </h1>{" "}
-						<hr />
+						<h1 className="text-uppercase"> Report Incident</h1> <hr />
 						<form onSubmit={handleIncidentForm}>
 							<div className="row mx-auto">
 								<div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -429,11 +429,11 @@ const TicketingComponent = () => {
 										name="description"
 										value={formData.description}
 										onChange={handleChange}
-										rows="3"
+										rows="5"
 									></textarea>
 									<button
 										type="submit"
-										className="btn btn-outline-dark btn-lg fw-bold"
+										className="btn btn-outline-light btn-lg fw-bold mb-4 mt-2"
 									>
 										{!error && loading ? (
 											<>
