@@ -84,7 +84,19 @@ const IncidentDetails = () => {
 										</tr>
 										<tr>
 											<td>Urgency</td>
-											<td>{incident.urgency}</td>
+											<td>
+												{incident.urgency === "High" ? (
+													<span className="bg-warning p-2 fw-bold">
+														{incident.urgency}
+													</span>
+												) : incident.urgency === "Priority" ? (
+													<span className="bg-danger p-2 text-light fw-bold">
+														{incident.urgency}
+													</span>
+												) : (
+													<span className="text-dark">{incident.urgency}</span>
+												)}
+											</td>
 										</tr>
 										{/* <tr>
 											<td>Assignment Group</td>
@@ -96,7 +108,7 @@ const IncidentDetails = () => {
 										</tr> */}
 										<tr>
 											<td>Description</td>
-											<td>{incident.description}</td>
+											<td className="lead">{incident.description}</td>
 										</tr>
 									</tbody>
 								</table>
@@ -121,9 +133,7 @@ const IncidentDetails = () => {
 						<hr />
 						<div className="bg-warning p-3">
 							<h2>Assigned to:</h2>
-							<div className="btn btn-outline-dark btn-sm">
-								{incident.assignedTo}
-							</div>
+							<div className="btn btn-dark btn-sm">{incident.assignedTo}</div>
 						</div>
 						<hr />
 						<hr />

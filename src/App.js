@@ -13,7 +13,7 @@ function App() {
 				<Navigation />
 				<Routes>
 					<Route
-						path="/incidents/incident-details/:id"
+						path="/incidents/incident-details/:id/:incident"
 						element={<IncidentDetails />}
 					/>
 

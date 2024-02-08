@@ -134,7 +134,7 @@ const IncidentListComponent = () => {
 														</td> */}
 														<td>
 															<Link
-																to={`/incidents/incident-details/${incident.id}`}
+																to={`/incidents/incident-details/${incident.id}/${incident.incidentNumber}`}
 																className="btn btn-secondary btn-sm"
 															>
 																VIEW
