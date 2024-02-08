@@ -54,7 +54,7 @@ const TicketingComponent = () => {
 		const { name, value } = e.target;
 		setFormData((prevFormData) => ({
 			...prevFormData,
-			date: new Date().toISOString(),
+			createdAt: new Date().toISOString(),
 			[name]: value,
 		}));
 	};

@@ -69,7 +69,7 @@ const LangdingPage = () => {
 					<small className="fst-italic text-muted">Do more with IT</small>
 					<h1 className="mb-4">Do more with IT Service Management</h1>
 
-					<div className="row text-lg-left text-center mt-4">
+					<div className="row text-lg-start text-sm-center mt-4">
 						<div className="col-xl-4 text-center">
 							<img
 								src="images/features-3.png"
@@ -78,7 +78,7 @@ const LangdingPage = () => {
 							/>
 						</div>
 						<div className="col-xl-8 ">
-							<div className="row align-self-center gy-4">
+							<div className="row  gy-4">
 								<div className="col-md-6 ">
 									<i
 										className="fa fa-line-chart d-inline p-2 bg-dark text-white img-thumbnail"

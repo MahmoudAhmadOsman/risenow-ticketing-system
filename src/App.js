@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NotFound from "./utils/NotFound";
 import TicketingComponent from "./ticket/TicketingComponent";
 import IncidentListComponent from "./ticket/IncidentListComponent";
+import IncidentDetails from "./ticket/IncidentDetails";
 
 function App() {
 	return (
@@ -11,6 +12,11 @@ function App() {
 			<BrowserRouter>
 				<Navigation />
 				<Routes>
+					<Route
+						path="/incidents/incident-details/:id"
+						element={<IncidentDetails />}
+					/>
+
 					<Route
 						path="/incidents/all-incidents"
 						element={<IncidentListComponent />}
