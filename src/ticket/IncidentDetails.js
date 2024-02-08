@@ -104,7 +104,7 @@ const IncidentDetails = () => {
 							<div className="card-footer">
 								<Link
 									to="/incidents/all-incidents"
-									className="btn btn-secondary btn-sm"
+									className="btn btn-secondary btn-sm px-2"
 								>
 									<i className="fa fa-chevron-left"></i> &nbsp; Back
 								</Link>
