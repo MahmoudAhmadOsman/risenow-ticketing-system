@@ -76,7 +76,7 @@ const IncidentDetails = () => {
 										</tr>
 										<tr>
 											<td>State</td>
-											<td>{incident.state}</td>
+											<td className="text-danger">{incident.state}</td>
 										</tr>
 										<tr>
 											<td>Impact</td>
