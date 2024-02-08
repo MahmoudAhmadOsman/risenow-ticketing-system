@@ -158,7 +158,7 @@ const LangdingPage = () => {
 						<div className="col-md-6 ">
 							<img
 								className="img-fluid  p-3"
-								src="images/start-with-us.jpg"
+								src="images/start-with-us.png"
 								alt="start with us"
 							/>
 						</div>
