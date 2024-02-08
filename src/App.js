@@ -5,6 +5,7 @@ import NotFound from "./utils/NotFound";
 import TicketingComponent from "./ticket/TicketingComponent";
 import IncidentListComponent from "./ticket/IncidentListComponent";
 import IncidentDetails from "./ticket/IncidentDetails";
+import FooterComponent from "./footer/FooterComponent";
 
 function App() {
 	return (
@@ -28,6 +29,7 @@ function App() {
 					<Route path="/" element={<HomeComponent />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
+				<FooterComponent />
 			</BrowserRouter>
 		</div>
 	);
