@@ -9,16 +9,14 @@ const IncidentListComponent = () => {
 	const [error, setError] = useState(false);
 
 	const fetchIncidents = async () => {
-		await IncidentService.getAllIncidents()
-			.then((incidents) => {
-				setIncidents(incidents.data);
-				setLoading(false);
-			})
-			.catch((error) => {
-				setError(error);
-				setLoading(false);
-				console.log(error);
-			});
+		try {
+			const res = await IncidentService.getAllIncidents();
+			setIncidents(res.data);
+		} catch (error) {
+			setError(error);
+		} finally {
+			setLoading(false);
+		}
 	};
 
 	useEffect(() => {

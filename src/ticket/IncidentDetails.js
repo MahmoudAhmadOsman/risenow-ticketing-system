@@ -24,22 +24,19 @@ const IncidentDetails = () => {
 	});
 	const { id } = useParams();
 
-	const getIncidentDetails = async () => {
-		await IncidentService.getIncidentById(id)
-			.then((res) => {
-				setIncident(res.data);
-				setLoading(false);
-			})
-			.catch((error) => {
-				console.log(error);
-				throw new Error(error);
-				// setError(true);
-				// setLoading(false);
-			});
+	const getIncidentDetails = async (id) => {
+		try {
+			const res = await IncidentService.getIncidentById(id);
+			setIncident(res.data);
+		} catch (error) {
+			setError(error.message || "An error occurred: ");
+		} finally {
+			setLoading(false);
+		}
 	};
 
 	useEffect(() => {
-		getIncidentDetails();
+		getIncidentDetails(id);
 	}, []);
 
 	return (
