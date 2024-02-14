@@ -2,7 +2,7 @@ import React from "react";
 import "./LandingStyle.css";
 import { Link } from "react-router-dom";
 
-const LangdingPage = () => {
+const LandingPage = () => {
 	return (
 		<>
 			{/* ======= Hero Section ======= */}
@@ -241,4 +241,4 @@ const LangdingPage = () => {
 	);
 };
 
-export default LangdingPage;
+export default LandingPage;
