@@ -126,7 +126,7 @@ const TicketingComponent = () => {
 											className="input-group-text"
 											id="basic-addon1"
 										>
-											Number
+											INC Number
 										</label>
 										<input
 											type="text"
