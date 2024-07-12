@@ -434,6 +434,20 @@ const TicketingComponent = () => {
 									<button
 										type="submit"
 										className="btn btn-outline-light btn-lg fw-bold mb-4 mt-2"
+											disabled={loading !incidentNumber ||
+		!caller ||
+		!category ||
+		!subCategory ||
+		!serviceOffering ||
+		!configuration ||
+		!channel ||
+		!state ||
+		!impact ||
+		!urgency ||
+		!assignmentGroup ||
+		!assignedTo ||
+		!description ||
+}
 									>
 										{!error && loading ? (
 											<>
