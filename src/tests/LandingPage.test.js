@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import LandingPage from "../landing/LandingPage";
 
-test("it check if 2 buttons are on landing pages", () => {
+test("should render the Watch Demo button", () => {
 	//1. render the landing component
 	render(<LandingPage />);
 	//2. find the element
